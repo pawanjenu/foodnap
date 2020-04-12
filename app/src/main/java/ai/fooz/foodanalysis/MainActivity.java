@@ -114,6 +114,8 @@ public class MainActivity extends Activity {
         totalFats = (TextView)findViewById(R.id.totalFats);
         totalProts = (TextView)findViewById(R.id.totalProts);
         helpBtn = (ImageView)findViewById(R.id.helpBtn);
+        
+        callCameraActivity();
 
 
         ImageView fab = (ImageView) findViewById(R.id.fab);
